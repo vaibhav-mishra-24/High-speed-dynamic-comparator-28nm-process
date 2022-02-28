@@ -35,17 +35,8 @@ The figure shows the overall basic diagram of the proposed comparator. The compa
 
 # References
 
-[1] Rishu  Yadav,  Manish  Kumar,  “Implementation  of  4X4  Fast  Vedic Multiplier  using  GDI  Method”,  2020  International  Conference  on Electrical and Electronics
-Engineering (ICE3-2020) 
-
-[2] Malti  Bansal,  Jasmeet  Singh, “Comparative  Analysis  of 4-bit  CMOS Vedic  Multiplier  and  GDI  Vedic  Multiplier  using  18nm  FinFET Technology”, International
-Conference on Smart Electronics and Communication (ICOSEC 2020). 
-
-[3] G.R.Mahendra Babu, S.Bhavani, “Primitive Cells using Gate Diffusion  Input  Technique:  a  Low  Power  Approach”, International Journal of Recent Technology and Engineering
-(IJRTE), June 
-
-[4] K.Anirudh Kumar Maurya, Y.Rama Lakshmanna,K.Bala Sindhuri, N. Udaya Kumar, “Design and Implementation of 32-bit  adders  using various  Full  Adders”,  International
-Conference  on  Innovations  in Power and Advanced computing Technologies[i-PACT2017].
-
-[5] Mehedi Hasan, Hasan U. Zaman, Mainul Hossain, Parag Biswas, Sharnali Islam, "Gate Diffusion Input technique based full swing and scalable 1-bit hybrid Full Adder for high
-performance applications", Engineering Science and Technology, an International Journal, 2020.
+[1] Xuqiang Zheng, Zhijun Wang, Fule Li, Feng Zhao, Shigang Yue,Chun Zhang, et al, “A 14-bit 250 MS/s IF Sampling Pipelined ADC in 180 nm CMOS Process.” IEEE Transactions on Circuits & Systems I Regular Papers 63.9(2016):1381-1392.
+[2] B. B. A. Fouzy, M. B. I. Reaz, M. A. S. Bhuiyan, M. T. I. Badal, F. H.Hashim, “Design of a low-power high-speed comparator in 0.13μm CMOS.” International Conference on Advances in Electrical, Electronic and Systems Engineering IEEE, 2017:289-292. 
+[3] Ahmadi Muhammad, and W. Namgoong, “Comparator Power Minimization Analysis for SAR ADC Using Multiple Comparators.”  IEEE Transactions on Circuits & Systems I Regular Papers62.10(2015):2369-2379. 
+[4] Chun C. Lee, and Micheal P. Flynn, “A SAR-Assisted Two-Stage Pipeline ADC. ” IEEE Journal of Solid-State Circuits 46.4(2011):859-869.  
+[5] Aida Varzaghani, Athos Kasapi, Dimitri N. Loizos, Song-Hee Paik, Shwetabh Verma, Sotirios Zogopoulos, et al, “A 10.3-GS/s, 6-Bit Flash ADC for 10G Ethernet Applications.” IEEE Journal of Solid- State Circuits 48.12(2013):3038-3048.
