@@ -4,16 +4,21 @@ This repository presents a high-speed dynamic comparator which could optimize th
 
 # Abstract
 
-Multipliers are used in the building blocks of several processors. Conventional multiplication is time consuming and lengthy process; to overcome these drawbacks the circuit
-designers must develop speedy multipliers. Vedic Multiplier is one of the fastest and low power multipliers. It has large number of applications such as Fast Fourier Transform
-(FFT), Convolution etc. Here, 4-bit Vedic Multiplier is implemented using Gate Diffusion Input (GDI) technique and 28nm CMOS technology. GDI Technique allows us to use lesser
-number of Transistors and hence lesser power and area than the conventional Static CMOS technique.
+Here is presented an  high-speed dynamic comparator which could optimize the basically differential amplifier and class AB latch circuit, designed and verified in  28nm CMOS process with Synopsys tools. The proposed design is powered by 1.05V supply and the output signal only exhibits 0.2mV/0.8mV offset voltage when the clock signal at the 1 GHz. The proposed circuit is useful for the electronic industries, highspeed ADCs and SerDes.
 
 # Tools Used
 
 - Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
 - Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
 - Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+
+# Proposed Comparator Design
+
+The figure shows the overall basic diagram of the proposed comparator. The comparator consists of pre-amplifier circuit, CMOS latch circuit and SR latch circuit. The preamplifier circuit is used to amplify the input signal and the latch circuit is controlled by clock signal. When the clock signal is high, the circuit enters the regenerative stage and the circuit enters the comparative stage when the clock signal is low.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54439300/155850948-68074f04-f1e6-4336-9c42-93fbfa1b2100.png"> <br>
+</p>
 
 # Author
 
