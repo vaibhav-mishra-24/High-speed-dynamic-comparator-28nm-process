@@ -1,0 +1,133 @@
+*  Generated for: PrimeSim
+*  Design library name: Fast_comparator
+*  Design cell name: Dynamic_Comparator
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Mon Feb 28 20:14:11 2022
+
+.global gnd!
+********************************************************************************
+* Library          : Fast_comparator
+* Cell             : pre_amplifierS1
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt pre_amplifiers1 vdd vss vbias1 vbias2 vinn vinp voutn1 voutp1
+xm31 voutp1 voutp1 vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
+xm28 voutn1 voutn1 vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
+xm29 voutp1 voutn1 vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
+xm30 voutn1 voutp1 vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
+xm27 net2 vbias1 vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm25 voutp1 vbias2 net1 vss n105 w=0.3u l=0.03u nf=1 m=1
+xm26 net1 vinp net2 vss n105 w=0.3u l=0.03u nf=1 m=1
+xm24 net3 vinn net2 vss n105 w=0.3u l=0.03u nf=1 m=1
+xm23 voutn1 vbias2 net3 vss n105 w=0.3u l=0.03u nf=1 m=1
+.ends pre_amplifiers1
+
+********************************************************************************
+* Library          : Fast_comparator
+* Cell             : pre_amplifierS2
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt pre_amplifiers2 vss clk vinn2 vinp2 voutn2 voutp2
+xm4 net17 clk vss vss n105 w=0.3u l=0.03u nf=1 m=1
+xm3 net13 vinp2 net17 vss n105 w=0.3u l=0.03u nf=1 m=1
+xm2 net9 vinn2 net17 vss n105 w=0.3u l=0.03u nf=1 m=1
+xm1 voutn2 clk net9 vss n105 w=0.3u l=0.03u nf=1 m=1
+xm0 voutp2 clk net13 vss n105 w=0.3u l=0.03u nf=1 m=1
+.ends pre_amplifiers2
+
+********************************************************************************
+* Library          : Fast_comparator
+* Cell             : cmoslatch
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt cmoslatch vdd vss clk vinn3 vinp3 voutn3 voutp3
+xm5 voutp3 net53 vdd vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm4 net45 clk vinn3 vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm3 net53 clk vinp3 vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm2 voutn3 net45 vdd vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm1 vinn3 vinp3 vdd vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm0 vinp3 vinn3 vdd vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm6 vinn3 clk vinp3 vss n105 w=0.1u l=0.03u nf=1 m=1
+xm7 voutn3 net45 vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm8 voutp3 net53 vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm9 net45 clk vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm10 net45 net53 vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm12 net53 clk vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm11 net53 net45 vss vss n105 w=0.1u l=0.03u nf=1 m=1
+.ends cmoslatch
+
+********************************************************************************
+* Library          : Fast_comparator
+* Cell             : sr_latch
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt sr_latch r s vdd vss voutn voutp
+xm3 voutp voutn net58 vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm2 net57 r vdd vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm1 voutn voutp net57 vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm0 net58 s vdd vdd p105 w=0.3u l=0.03u nf=1 m=1
+xm7 voutn r vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm6 voutn voutp vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm5 voutp voutn vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm4 voutp s vss vss n105 w=0.1u l=0.03u nf=1 m=1
+.ends sr_latch
+
+********************************************************************************
+* Library          : Fast_comparator
+* Cell             : Dynamic_Comparator
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 net25 gnd! net33 net31 vinn vinp net13 net12 pre_amplifiers1
+xi1 gnd! clk net13 net12 voutn2 voutp2 pre_amplifiers2
+xi3 net25 gnd! clk voutn2 voutp2 net59 net58 cmoslatch
+v6 net33 gnd! dc=600m
+v5 net31 gnd! dc=1
+v4 net25 gnd! dc=1.05
+v8 vinn gnd! dc=650m ac=1 sin ( 650m 20m 500meg 5n 0 0 )
+v7 vinp gnd! dc=650m ac=1 sin ( 650m 20m 500meg 0 0 0 )
+v9 clk gnd! dc=1.05 pulse ( 0 1.05 0 20p 20p 500p 1n )
+r27 voutn gnd! r=1k
+r28 voutp gnd! r=1k
+xi23 net59 net58 net25 gnd! voutn voutp sr_latch
+
+
+
+
+
+
+
+
+.tran '1n' '100n' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(clk) v(net58) v(net59) v(vinn) v(vinp)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
