@@ -36,7 +36,11 @@ The figure shows the overall basic diagram of the proposed comparator. The compa
 # References
 
 [1] Xuqiang Zheng, Zhijun Wang, Fule Li, Feng Zhao, Shigang Yue,Chun Zhang, et al, “A 14-bit 250 MS/s IF Sampling Pipelined ADC in 180 nm CMOS Process.” IEEE Transactions on Circuits & Systems I Regular Papers 63.9(2016):1381-1392.
+
 [2] B. B. A. Fouzy, M. B. I. Reaz, M. A. S. Bhuiyan, M. T. I. Badal, F. H.Hashim, “Design of a low-power high-speed comparator in 0.13μm CMOS.” International Conference on Advances in Electrical, Electronic and Systems Engineering IEEE, 2017:289-292. 
+
 [3] Ahmadi Muhammad, and W. Namgoong, “Comparator Power Minimization Analysis for SAR ADC Using Multiple Comparators.”  IEEE Transactions on Circuits & Systems I Regular Papers62.10(2015):2369-2379. 
+
 [4] Chun C. Lee, and Micheal P. Flynn, “A SAR-Assisted Two-Stage Pipeline ADC. ” IEEE Journal of Solid-State Circuits 46.4(2011):859-869.  
+
 [5] Aida Varzaghani, Athos Kasapi, Dimitri N. Loizos, Song-Hee Paik, Shwetabh Verma, Sotirios Zogopoulos, et al, “A 10.3-GS/s, 6-Bit Flash ADC for 10G Ethernet Applications.” IEEE Journal of Solid- State Circuits 48.12(2013):3038-3048.
