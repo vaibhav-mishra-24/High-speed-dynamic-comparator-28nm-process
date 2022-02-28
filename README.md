@@ -17,7 +17,7 @@ Here is presented an  high-speed dynamic comparator which could optimize the bas
 The figure shows the overall basic diagram of the proposed comparator. The comparator consists of pre-amplifier circuit, CMOS latch circuit and SR latch circuit. The preamplifier circuit is used to amplify the input signal and the latch circuit is controlled by clock signal. When the clock signal is high, the circuit enters the regenerative stage and the circuit enters the comparative stage when the clock signal is low.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54439300/155850948-68074f04-f1e6-4336-9c42-93fbfa1b2100.png"> <br>
+  <img src="/Images/proposed_Design.png"> <br>
 </p>
 
 # Author
