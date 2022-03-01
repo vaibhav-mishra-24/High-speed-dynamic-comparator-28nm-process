@@ -18,7 +18,7 @@ The figure shows the overall basic diagram of the proposed comparator. The compa
 
 <p align="center">
   <img src="/Images/proposed_Design.png"> <br>
-<figcaption align="center">Fig. 1 Proposed Dynamic Comparator Block Diagram</figcaption>
+Fig. 1 Proposed Dynamic Comparator Block Diagram
 </p>
 
 
