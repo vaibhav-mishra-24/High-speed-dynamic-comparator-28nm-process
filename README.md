@@ -43,7 +43,17 @@ The pre-amplifier circuit consists of two-stage preamplifier circuit. The first 
  Fig. 3 Pre Amplifier Stage 2
 </p>
 
-The second stage pre-amplifier circuit as shown in Fig. 3. The gate of M10 is controlled by the clock signal clk. Then, the static power consumption of the circuit can be reduced due to there no current flows when the transistor M10 is off.
+The second stage pre-amplifier circuit as shown in Fig. 3. The gate of M4 is controlled by the clock signal clk. Then, the static power consumption of the circuit can be reduced due to there no current flows when the transistor M4 is off.
+
+## CMOS Latch Circuit
+
+The CMOS latch circuit reduces the static power consumption, and makes the input remain condition of equilibrium when the next stage SR latch stays the regenerate stage. Similarly, it can reduce hysteresis, the charge-storage effect of the CMOS latch circuit, and offset voltage of comparator. In addition, the delay of circuit reduced by optimizing the recovery time of overdrive voltage.
+
+<p align="center">
+  <img src="/Images/Fast_comparator_cmoslatch_schematic.png"> <br>
+ Fig. 4 CMOS Latch Circuit
+</p>
+
 
 # Author
 
