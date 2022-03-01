@@ -76,6 +76,10 @@ The CMOS latch circuit reduces the static power consumption, and makes the input
  Fig. 7 Waveform Result
 </p>
 
+# Netlist
+
+Netlist of the Dynamic Comparator can be found [here](/Netlist/netlist_DynamicComparator)
+
 # Author
 
 - [Vaibhav Mishra, M.TECH VLSI DESIGN, Vellore Institute of Technology, Vellore ](https://www.linkedin.com/in/vaibhav-mishra-33487612a)
