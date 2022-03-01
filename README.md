@@ -54,6 +54,27 @@ The CMOS latch circuit reduces the static power consumption, and makes the input
  Fig. 4 CMOS Latch Circuit
 </p>
 
+## SR Latch Circuit
+
+<p align="center">
+  <img src="/Images/Fast_comparator_sr_latch_schematic.png"> <br>
+ Fig. 5 SR Latch Circuit
+</p>
+
+# Dynamic Comparator Schematic and Testbench
+
+<p align="center">
+  <img src="/Images/Fast_comparator_Dynamic_Comparator_schematic.png"> <br>
+ Fig. 6 Dynamic Comparator Circuit
+</p>
+
+
+# Simulation Result
+
+<p align="center">
+  <img src="/Simulation/TranAnalysisComparator.png"> <br>
+ Fig. 7 Waveform Result
+</p>
 
 # Author
 
