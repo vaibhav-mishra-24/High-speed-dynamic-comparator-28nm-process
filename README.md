@@ -19,6 +19,7 @@ The figure shows the overall basic diagram of the proposed comparator. The compa
 <p align="center">
   
   <img src="/Images/proposed_Design.png"> <br>
+<figcaption align="center">Fig. 1 Proposed Dynamic Comparator Block Diagram</figcaption>
 </p>
 
 
@@ -29,7 +30,7 @@ The offset voltage is more important indicator of the comparator, which usually 
 
 <p align="center">
   <img src="/Images/Fast_comparator_pre_amplifierS1_schematic.png"> <br>
-  <figcaption align="center">Pre Amplifier Stage 1</figcaption>
+  <figcaption align="center">Fig. 2 Pre Amplifier Stage 1</figcaption>
 </p>
 
 
