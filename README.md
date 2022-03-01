@@ -27,7 +27,7 @@ Fig. 1 Proposed Dynamic Comparator Block Diagram
 
 The offset voltage is more important indicator of the comparator, which usually decides the quality of the circuit. The proposed circuit needs two stages amplifier to obtain high resolution, high gain and high bandwidth. In addition, the long channel length of transistors are used at the input. Thus, the mismatch of differential input pairs can be reduced and the transconductance can be enhanced.
 
-###Pre Amplifier Stage 1
+### Pre Amplifier Stage 1
 
 <p align="center">
   <img src="/Images/Fast_comparator_pre_amplifierS1_schematic.png"> <br>
@@ -36,7 +36,7 @@ The offset voltage is more important indicator of the comparator, which usually 
 
 The pre-amplifier circuit consists of two-stage preamplifier circuit. The first stage is shown in Fig. 2, which is a basically differential amplifier circuit. In order to reduce the offset, the channel length of the transistors for the input should be increased slightly, which reduce the mismatch of the circuit.
 
-###Pre Amplifier Stage 2
+### Pre Amplifier Stage 2
 
 <p align="center">
   <img src="/Images/Fast_comparator_pre_amplifierS2_schematic.png"> <br>
