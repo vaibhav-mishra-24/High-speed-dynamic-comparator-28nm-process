@@ -29,7 +29,7 @@ The offset voltage is more important indicator of the comparator, which usually 
 
 <p align="center">
   <img src="/Images/Fast_comparator_pre_amplifierS1_schematic.png"> <br>
-  <figcaption>Pre Amplifier Stage 1</figcaption>
+  <figcaption align="center">Pre Amplifier Stage 1</figcaption>
 </p>
 
 
