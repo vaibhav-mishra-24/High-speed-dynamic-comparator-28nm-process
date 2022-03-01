@@ -89,7 +89,7 @@ The CMOS latch circuit reduces the static power consumption, and makes the input
 
 <p align="center">
   <img src="/Simulation/TranAnalysisComparator.png"> <br>
- Fig. 7 Waveform Result
+ Fig. 7 Simulation Waveform 
 </p>
 
 # Netlist
