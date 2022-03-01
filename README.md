@@ -3,14 +3,21 @@ This repository presents a high-speed dynamic comparator which could optimize th
 # Table of Contents
 
 - [Abstract](#abstract)
-- [Tools Used](https://github.com/Rahesh31/4-bit-Vedic-Multiplier/blob/main/README.md#tools-used)
-- [
-- [Simulations](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#simulations)
-- [Netlist](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#netlist)
-- [Results](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#results)
-- [Author](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#author)
-- [Acknowedgements](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#acknowledgements)
-- [References](https://github.com/Rahesh31/4-bit-Vedic-Multiplier#references)
+- [Tools Used](#tools-used)
+- [Proposed Comparator Design](#proposed-comparator-design)
+- [Pre Amplifier Circuits](#pre-amplifier-circuits)
+- [Pre Amplifier Stage 1](#pre-amplifier-stage-1)
+- [Pre Amplifier Stage 2](#pre-amplifier-stage-2)
+- [CMOS Latch Circuit](#cmos-latch-circuit)
+- [SR Latch Circuit](#sr-latch-circuit)
+- [Dynamic Comparator Schematic and Testbench](#dynamic-comparator-schematic-and-testbench)
+- [Simulation Result](#simulation-result)
+- [Netlist](#netlist)
+- [Author](#author)
+- [Acknowedgements](#acknowledgements)
+- [References](#references)
+
+
 # Abstract
 
 Here is presented an  high-speed dynamic comparator which could optimize the basically differential amplifier and class AB latch circuit, designed and verified in  28nm CMOS process with Synopsys tools. The proposed design is powered by 1.05V supply and the output signal only exhibits 0.2mV/0.8mV offset voltage when the clock signal at the 1 GHz. The proposed circuit is useful for the electronic industries, highspeed ADCs and SerDes.
